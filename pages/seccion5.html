@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gastronomia-llanos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2>LeFood</h2>
+            <ul>
+                <li> <a href="../index.html" >INICIO</a> </li>
+                <li> <a href="pages/seccion2.html">NOSOTROS</a></li>
+                <li> <a href="seccion3.html" >PRODUCTO</a></li>
+                <li> <a href="seccion4.html">GALERIA</a></li>
+                <li> <a href="seccion5.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- flexbox -->
+    <section id="main">
+        <form class="formulario">
+            <h3>Solicite su presupuesto</h3>
+                <ul>
+                    <li> 
+                        <label for="nombre_apellido">Nombre y apellido:</label>	
+                        <input type="text" name="nombre_apellido" />
+                    </li>   
+                    <li>
+                        <label>Sexo:</label>
+                        <label for="sexo">hombre</label>
+                        <input type="radio" name="sexo" value="hombre" />
+                        <label for="sexo">mujer</label>
+                        <input type="radio" name="sexo" value="mujer" />
+                    </li>
+                    <li>
+                        <label for="comensales">Comensales:</label>	
+                        <select name="comensales">
+                            <option value="L">-50</option>
+                            <option value="M">+50</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>	
+                        <input type="text" name="email" />
+                    </li>
+                    <li>
+                        <label for="telefono">Telefono:</label>	
+                        <input type="text" name="telefono" />
+                    </li>
+                    <li>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                    </li>
+                    </ul>     
+                        <input type="submit" value="enviar formulario"/>
+                        <input type="reset" value="limpiar formulario"/> 
+        </form>
+        <section class="mapa">
+            <h3>Ubicacion </h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13131.890853858566!2d-58.48786168961181!3d-34.63012983389628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9944d1d79ad%3A0x67e679d6cddbae9e!2sPlaza%20V%C3%A9lez%20Sarsfield!5e0!3m2!1ses-419!2sar!4v1620227174315!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </section>
+    <footer class="gridfooter">
+        <div class="logoA">Le Food S.A.</div>
+        <div>
+            <p class="logob"> 
+                tel:011-xxxxxxxx 
+                <br> 
+                contacto@gmail.com
+            </p>
+        </div>
+        <div>
+            <img class="logo" src="../img/facebook.png">
+            <img class="logo" src="../img/instagram.png">
+            <img class="logo" src="../img/whatsapp.png">
+            <img class="logo" src="../img/youtube.png">
+        </div>
+    </footer>
+</body>
+</html>
+    

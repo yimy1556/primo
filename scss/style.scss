@@ -1,0 +1,97 @@
+@import "_colores";
+@import "_responsive";
+
+header {
+	grid-area: header;
+    align-self: center;
+    padding-bottom: 1px;
+    grid-area: header;
+    align-self: center;
+    padding-bottom: 1px;
+    nav{
+        grid-area: nav;
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+        padding-bottom: 1px;
+        border-bottom:$negro;
+        background-color:$violeta;
+        width: 100%;
+        ul {
+            background-color:$violeta;
+            height: 70px;
+            font-family: 'Itim', cursive;
+            width: 100%;
+            display:flex;
+            flex-direction:row;
+            justify-content: flex-end;
+            list-style: none;
+            list-style: none;
+            li {
+                margin: 20px;
+                font-family: 'Nova Oval', cursive;
+                a {
+                    text-decoration:none;
+                    padding: 2px;
+                &:hover {
+                        background-color: rgb(141, 84, 196);
+                        padding: 15px;
+                        color:$violeta;
+                    }      
+            }   }   
+        }
+    
+    }
+}
+
+h1 {
+    color:$marron;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vw;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    margin-top: -2vw;
+}
+
+
+h2 {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+
+footer{
+	grid-area: footer;
+    justify-content: center;
+    grid-area: footer;
+    background-color:$violeta;
+    padding: 30px; 
+    background-image: linear-gradient($violeta,rgb(64, 16, 109));  
+    margin-top: 30px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    .logo {
+        width: 3vw;
+        height: 3vw;
+    
+    }
+    .logoA {
+        color:$marron;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 3vw;
+    }
+    .logob {
+        margin-top: 0px;
+        font-family:fantasy;
+        font-size: 2vw;
+    }
+
+            
+}
+
+
+
+
